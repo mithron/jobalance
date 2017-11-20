@@ -206,7 +206,7 @@
                         [38.00180145396945, 68.56083567795663],
                         [38.541855454524864, 68.31678819403221]
                     ]
-                ] }, "properties": { "PERIMETER": 3257530, "region": "RU-MUR", "AREA": 143071000000 } },
+                ] }, "properties": { "PERIMETER": 3257530, "regionId":"5100000000000", "center":{"lat": "68.97917", "lng": " 33.09251", "cityname": "Мурманская область"}, "region": "RU-MUR", "AREA": 143071000000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [57.047705873556225, 80.06360708692799],
@@ -317,7 +317,7 @@
                         [94.92349311250754, 81.1008088936068],
                         [95.64356511324806, 81.25943975815767]
                     ]
-                ] }, "properties": { "PERIMETER": 731454, "region": "RU-KYA", "AREA": 8803990000 } },
+                ] }, "properties": { "PERIMETER": 731454,"regionId":"2400000000000", "center":{"lat": "56.0183900", "lng": " 92.8671700", "cityname": "Красноярский край"}, "region": "RU-KYA", "AREA": 8803990000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [168.5148515881887, 69.98444600084913],
@@ -481,7 +481,7 @@
                         [150.54905516971272, 75.09724078906589],
                         [150.0090011691573, 74.80031635029115]
                     ]
-                ] }, "properties": { "PERIMETER": 461583, "region": "RU-SA", "AREA": 6267070000 } },
+                ] }, "properties": { "PERIMETER": 461583,"regionId":"1400000000000", "center":{"lat": "62.0338900", "lng": " 129.7330600", "cityname": "Республика Саха (Якутия)"},"region": "RU-SA", "AREA": 6267070000 } },
      { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [29.648966245379427, 59.933757121228126],
@@ -709,55 +709,7 @@
                         [54.09541067052007, 68.18662953593918]
                     ]
                 ] }, "properties": { "PERIMETER": 4592130, "region": "RU-NEN", "AREA": 167141000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 25360.7, "region": "RU-KR", "AREA": 33431400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19805, "region": "RU-SA", "AREA": 12618100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5153.5, "region": "RU-KYA", "AREA": 1534610 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7644.95, "region": "RU-ARK", "AREA": 2545430 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3763.9, "region": "RU-ARK", "AREA": 740468 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10912.2, "region": "RU-KR", "AREA": 5204700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4666.67, "region": "RU-KYA", "AREA": 1239250 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1182.6, "region": "RU-SA", "AREA": 81849 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3001.99, "region": "RU-KYA", "AREA": 537091 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 32763.6, "region": "RU-SA", "AREA": 32613900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3002.77, "region": "RU-ARK", "AREA": 511337 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3121.58, "region": "RU-ARK", "AREA": 544036 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15254.9, "region": "RU-KYA", "AREA": 6053680 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7970.69, "region": "RU-ARK", "AREA": 2426390 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3274.83, "region": "RU-SA", "AREA": 383294 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3477.24, "region": "RU-KR", "AREA": 559646 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3928.4, "region": "RU-ARK", "AREA": 818157 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7410.06, "region": "RU-SA", "AREA": 2937380 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5625.01, "region": "RU-ARK", "AREA": 1054490 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3052.13, "region": "RU-SA", "AREA": 447550 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1562.69, "region": "RU-SA", "AREA": 156219 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6012.28, "region": "RU-ARK", "AREA": 1864680 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3335.21, "region": "RU-SA", "AREA": 638532 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6191.23, "region": "RU-ARK", "AREA": 1515850 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3606.56, "region": "RU-ARK", "AREA": 714864 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1279.63, "region": "RU-SA", "AREA": 96858 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1297.63, "region": "RU-SA", "AREA": 100870 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10252, "region": "RU-SA", "AREA": 4254740 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3271.27, "region": "RU-KR", "AREA": 339545 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1294.33, "region": "RU-SA", "AREA": 96544.5 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1381.48, "region": "RU-SA", "AREA": 125943 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4513.73, "region": "RU-KYA", "AREA": 1075870 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3865.87, "region": "RU-KYA", "AREA": 1042610 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6143.75, "region": "RU-KYA", "AREA": 2447710 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3592.96, "region": "RU-KYA", "AREA": 691997 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9895.78, "region": "RU-KYA", "AREA": 4718500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4683.44, "region": "RU-KR", "AREA": 1275590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5645.47, "region": "RU-KR", "AREA": 1155760 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5001.24, "region": "RU-KYA", "AREA": 969501 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4819.82, "region": "RU-KYA", "AREA": 1051910 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4526.42, "region": "RU-KR", "AREA": 1008900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3352, "region": "RU-KYA", "AREA": 699148 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 47725, "region": "RU-SA", "AREA": 76277900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3260.27, "region": "RU-KR", "AREA": 407741 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3448.16, "region": "RU-KYA", "AREA": 596927 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3556.17, "region": "RU-KR", "AREA": 673594 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 20110.1, "region": "RU-KR", "AREA": 11929300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13732.8, "region": "RU-KYA", "AREA": 7378350 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [29.900991445638624, 58.44100001122371],
                         [30.117013045860773, 58.746059366129245],
@@ -785,20 +737,7 @@
                         [29.900991445638624, 58.44100001122371]
                     ]
                 ] }, "properties": { "PERIMETER": 2033600, "region": "RU-NGR", "AREA": 55092400000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3199.22, "region": "RU-MUR", "AREA": 638269 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1637.14, "region": "RU-SA", "AREA": 141298 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7079.18, "region": "RU-KYA", "AREA": 3039290 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3333.8, "region": "RU-KR", "AREA": 571840 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4728.97, "region": "RU-KYA", "AREA": 1380130 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4328.77, "region": "RU-KR", "AREA": 954785 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 48769.7, "region": "RU-KYA", "AREA": 32762000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4208.76, "region": "RU-KYA", "AREA": 1090730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5648.11, "region": "RU-KYA", "AREA": 2261350 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10689.7, "region": "RU-ARK", "AREA": 3523220 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3516.16, "region": "RU-MUR", "AREA": 715101 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4242.82, "region": "RU-KYA", "AREA": 812751 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16194.2, "region": "RU-KYA", "AREA": 14887700 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+          { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [162.35823598185723, 69.61430731689708],
                         [162.7542755822645, 68.91470452964705],
@@ -1006,24 +945,7 @@
                         [162.35823598185723, 69.61430731689708]
                     ]
                 ] }, "properties": { "PERIMETER": 15724700, "region": "RU-SA", "AREA": 3035630000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3686.33, "region": "RU-ARK", "AREA": 719029 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4554.82, "region": "RU-ARK", "AREA": 1031310 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3111.92, "region": "RU-ARK", "AREA": 431545 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5802.02, "region": "RU-KYA", "AREA": 1546510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7839.53, "region": "RU-ARK", "AREA": 2743450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4883.46, "region": "RU-KYA", "AREA": 1528890 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8981.06, "region": "RU-ARK", "AREA": 2919010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3108.17, "region": "RU-KYA", "AREA": 643377 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 242837, "region": "RU-ARK", "AREA": 740274000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 64736.8, "region": "RU-KYA", "AREA": 105107000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13863.7, "region": "RU-KYA", "AREA": 4394070 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4863.46, "region": "RU-ARK", "AREA": 1170970 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3866.82, "region": "RU-KYA", "AREA": 933375 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8096.75, "region": "RU-ARK", "AREA": 1892520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3494.55, "region": "RU-ARK", "AREA": 525525 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5491.1, "region": "RU-SA", "AREA": 1442860 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3064.61, "region": "RU-NEN", "AREA": 488184 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [161.7821783812648, 69.6224422330279],
                         [161.81818198130182, 69.64684698142034],
@@ -1032,11 +954,6 @@
                         [161.7821783812648, 69.6224422330279]
                     ]
                 ] }, "properties": { "PERIMETER": 17527.3, "region": "RU-SA", "AREA": 8391490 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 2766.23, "region": "RU-SA", "AREA": 399802 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7405.72, "region": "RU-SA", "AREA": 3204560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4146.24, "region": "RU-SA", "AREA": 748573 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10379.2, "region": "RU-SA", "AREA": 4122450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8796.57, "region": "RU-ARK", "AREA": 4018430 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [161.74617478122778, 69.57770019430842],
@@ -1045,22 +962,7 @@
                         [161.74617478122778, 69.57770019430842]
                     ]
                 ] }, "properties": { "PERIMETER": 24143.8, "region": "RU-SA", "AREA": 36805300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19765.4, "region": "RU-SA", "AREA": 16609100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7337.97, "region": "RU-ARK", "AREA": 1863770 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 99656.6, "region": "RU-KYA", "AREA": 250766000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4741.06, "region": "RU-ARK", "AREA": 973667 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4503.88, "region": "RU-KYA", "AREA": 1354010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3350.1, "region": "RU-KYA", "AREA": 757313 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3681.95, "region": "RU-KYA", "AREA": 847162 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 23810.2, "region": "RU-ARK", "AREA": 14065500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3211.49, "region": "RU-KYA", "AREA": 662312 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3831.52, "region": "RU-KYA", "AREA": 913627 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 32964.5, "region": "RU-ARK", "AREA": 22137300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4326.06, "region": "RU-SA", "AREA": 863466 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3709.6, "region": "RU-KYA", "AREA": 930413 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10371.8, "region": "RU-SA", "AREA": 5629560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9671.49, "region": "RU-SA", "AREA": 5572160 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [161.38613878085752, 69.42313678782295],
                         [161.42214238089454, 69.46787882654243],
@@ -1069,28 +971,7 @@
                         [161.38613878085752, 69.42313678782295]
                     ]
                 ] }, "properties": { "PERIMETER": 90634.1, "region": "RU-SA", "AREA": 115530000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10824, "region": "RU-SA", "AREA": 6288080 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12068.6, "region": "RU-ARK", "AREA": 6804970 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6463.88, "region": "RU-ARK", "AREA": 1502620 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 36251.8, "region": "RU-ARK", "AREA": 80901000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8176.13, "region": "RU-SA", "AREA": 2401880 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4091.53, "region": "RU-SA", "AREA": 802459 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3964.4, "region": "RU-KYA", "AREA": 845774 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3815.68, "region": "RU-SA", "AREA": 805722 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8549.67, "region": "RU-SA", "AREA": 1580180 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3545.1, "region": "RU-ARK", "AREA": 688872 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18814.7, "region": "RU-SA", "AREA": 9455220 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7766.01, "region": "RU-SA", "AREA": 2100360 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10218.5, "region": "RU-SA", "AREA": 1957600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4760.29, "region": "RU-SA", "AREA": 1208560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18859.2, "region": "RU-KYA", "AREA": 24368200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13984.7, "region": "RU-ARK", "AREA": 5449650 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3982.43, "region": "RU-KYA", "AREA": 882688 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5924.61, "region": "RU-NEN", "AREA": 1828020 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5683.72, "region": "RU-SA", "AREA": 2235030 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7270.79, "region": "RU-SA", "AREA": 2356160 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15005, "region": "RU-NEN", "AREA": 6019560 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [135.57155755430992, 75.36569302138275],
                         [135.715571954458, 75.87412527955865],
@@ -1098,9 +979,6 @@
                         [135.57155755430992, 75.36569302138275]
                     ]
                 ] }, "properties": { "PERIMETER": 131061, "region": "RU-SA", "AREA": 531154000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5942.89, "region": "RU-SA", "AREA": 1688340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8514.9, "region": "RU-SA", "AREA": 3642340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6799.62, "region": "RU-SA", "AREA": 2407890 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [48.26282746452188, 68.79674824575025],
@@ -1113,51 +991,7 @@
                         [48.26282746452188, 68.79674824575025]
                     ]
                 ] }, "properties": { "PERIMETER": 407859, "region": "RU-NEN", "AREA": 5025900000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13709.6, "region": "RU-SA", "AREA": 8683130 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 35612.6, "region": "RU-ARK", "AREA": 27328300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7797.09, "region": "RU-NEN", "AREA": 2781800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3541.04, "region": "RU-NEN", "AREA": 600328 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6161.89, "region": "RU-ARK", "AREA": 1435700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3672.38, "region": "RU-NEN", "AREA": 730071 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 60577.8, "region": "RU-KYA", "AREA": 144468000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11291.9, "region": "RU-SA", "AREA": 3946100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8447.01, "region": "RU-SA", "AREA": 3367110 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17659.1, "region": "RU-KYA", "AREA": 8336140 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7810.15, "region": "RU-SA", "AREA": 2445340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3687.93, "region": "RU-KYA", "AREA": 592219 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3736.61, "region": "RU-KYA", "AREA": 690860 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6287.54, "region": "RU-ARK", "AREA": 1194870 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7315.43, "region": "RU-ARK", "AREA": 2453990 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8468.48, "region": "RU-KYA", "AREA": 3363080 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7385.21, "region": "RU-SA", "AREA": 2207670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9876.99, "region": "RU-ARK", "AREA": 2838130 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 34296.2, "region": "RU-ARK", "AREA": 29265000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6878.57, "region": "RU-KYA", "AREA": 2637530 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 74740.2, "region": "RU-KYA", "AREA": 59983600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3561.89, "region": "RU-ARK", "AREA": 495206 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11197.1, "region": "RU-KYA", "AREA": 5452160 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 57456.4, "region": "RU-ARK", "AREA": 50147400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18771.7, "region": "RU-ARK", "AREA": 15830200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8451.76, "region": "RU-KYA", "AREA": 2804830 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19026.1, "region": "RU-ARK", "AREA": 8402760 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7282.91, "region": "RU-ARK", "AREA": 3445600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21027.9, "region": "RU-KYA", "AREA": 17479500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6627.55, "region": "RU-ARK", "AREA": 1673060 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 48045.5, "region": "RU-ARK", "AREA": 88723500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6720.65, "region": "RU-SA", "AREA": 1436530 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7747.43, "region": "RU-NEN", "AREA": 2138940 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4466.07, "region": "RU-KYA", "AREA": 1300920 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7284.25, "region": "RU-KYA", "AREA": 2255160 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4469.45, "region": "RU-ARK", "AREA": 978507 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3687.76, "region": "RU-KYA", "AREA": 910085 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9277.33, "region": "RU-ARK", "AREA": 3476400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4294.71, "region": "RU-NEN", "AREA": 883665 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8438.74, "region": "RU-ARK", "AREA": 3045590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17565.7, "region": "RU-ARK", "AREA": 14849700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9397.66, "region": "RU-NEN", "AREA": 2695370 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3859.8, "region": "RU-NEN", "AREA": 815951 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 40127.2, "region": "RU-KYA", "AREA": 48756800 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [40.27002825630211, 64.62760372870795],
                         [40.30603185633913, 64.62353627064255],
@@ -1165,11 +999,7 @@
                         [40.27002825630211, 64.62760372870795]
                     ]
                 ] }, "properties": { "PERIMETER": 26385.6, "region": "RU-ARK", "AREA": 32781200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3227.85, "region": "RU-ARK", "AREA": 544757 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3871.72, "region": "RU-KYA", "AREA": 1024890 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6072.3, "region": "RU-ARK", "AREA": 1925860 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9537.26, "region": "RU-NEN", "AREA": 1926730 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [40.27002825630211, 64.58692914805388],
                         [40.30603185633913, 64.62353627064255],
@@ -1181,25 +1011,7 @@
                         [40.27002825630211, 64.58692914805388]
                     ]
                 ] }, "properties": { "PERIMETER": 42260.8, "region": "RU-ARK", "AREA": 63865000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12989, "region": "RU-KYA", "AREA": 6092810 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5812.95, "region": "RU-ARK", "AREA": 1609590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5483.71, "region": "RU-KYA", "AREA": 1798890 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11040.2, "region": "RU-KYA", "AREA": 5052720 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5804.95, "region": "RU-NEN", "AREA": 895552 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6067.54, "region": "RU-KYA", "AREA": 2011170 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3996.6, "region": "RU-KYA", "AREA": 1173850 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 65237.4, "region": "RU-KYA", "AREA": 92856500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4677.99, "region": "RU-ARK", "AREA": 1179200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 130144, "region": "RU-KYA", "AREA": 326476000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11600.1, "region": "RU-KYA", "AREA": 8003090 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12161.1, "region": "RU-KYA", "AREA": 8931780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 42952.4, "region": "RU-NEN", "AREA": 9887030 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4079.58, "region": "RU-ARK", "AREA": 751102 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3810.87, "region": "RU-NEN", "AREA": 731176 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6675.55, "region": "RU-KYA", "AREA": 2041780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19615.5, "region": "RU-KYA", "AREA": 25148700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3367.95, "region": "RU-KYA", "AREA": 617123 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [36.20162145211816, 58.51014679833563],
                         [36.5256538524514, 58.522349172531854],
@@ -1230,7 +1042,7 @@
                         [35.30153145119252, 58.404392888635044],
                         [36.20162145211816, 58.51014679833563]
                     ]
-                ] }, "properties": { "PERIMETER": 2541610, "region": "RU-TVE", "AREA": 84480900000 } },
+                ] }, "properties": { "PERIMETER": 2541610,"regionId":"6900000000000", "center":{ "lat": "56.86049", "lng": " 35.87603", "cityname": "Тверская область"}, "region": "RU-TVE", "AREA": 84480900000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [37.7857798537473, 61.5159983086715],
@@ -1279,8 +1091,6 @@
                         [37.7857798537473, 61.5159983086715]
                     ]
                 ] }, "properties": { "PERIMETER": 3293500, "region": "RU-VLG", "AREA": 145444000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5907.15, "region": "RU-KYA", "AREA": 1647700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6597.39, "region": "RU-KYA", "AREA": 2096270 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [140.2880291591603, 74.23493967919958],
@@ -1290,20 +1100,7 @@
                         [140.2880291591603, 74.23493967919958]
                     ]
                 ] }, "properties": { "PERIMETER": 122401, "region": "RU-SA", "AREA": 898663000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4391.17, "region": "RU-KYA", "AREA": 1099710 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5903.45, "region": "RU-NEN", "AREA": 1060760 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9439.1, "region": "RU-KYA", "AREA": 4405000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4841.34, "region": "RU-KYA", "AREA": 1565480 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5651.74, "region": "RU-NEN", "AREA": 1435810 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5476.64, "region": "RU-NEN", "AREA": 1756290 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5612.65, "region": "RU-NEN", "AREA": 1377660 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7024.37, "region": "RU-NEN", "AREA": 1378510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19520, "region": "RU-NEN", "AREA": 6995080 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10707.8, "region": "RU-KYA", "AREA": 7344590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4280.36, "region": "RU-NEN", "AREA": 704409 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3469.46, "region": "RU-KYA", "AREA": 733084 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 57944.5, "region": "RU-KYA", "AREA": 58745800 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [139.891989558753, 73.34416636287541],
                         [140.68406875956757, 73.53533689194956],
@@ -1316,141 +1113,7 @@
                         [139.891989558753, 73.34416636287541]
                     ]
                 ] }, "properties": { "PERIMETER": 354649, "region": "RU-SA", "AREA": 5329490000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3960.55, "region": "RU-KYA", "AREA": 875199 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12943.8, "region": "RU-NEN", "AREA": 4510590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12205.8, "region": "RU-KYA", "AREA": 6598520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4417.84, "region": "RU-KYA", "AREA": 1229010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3540.93, "region": "RU-KYA", "AREA": 788139 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14973.3, "region": "RU-NEN", "AREA": 3945960 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 74066.1, "region": "RU-KYA", "AREA": 102335000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4909.18, "region": "RU-KYA", "AREA": 1159520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 35110.5, "region": "RU-KYA", "AREA": 47757800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3267.48, "region": "RU-KYA", "AREA": 759164 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3531.1, "region": "RU-NEN", "AREA": 575103 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5184.71, "region": "RU-KYA", "AREA": 1310580 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11670.8, "region": "RU-KYA", "AREA": 7971620 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3327.57, "region": "RU-KYA", "AREA": 644652 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3265.24, "region": "RU-KYA", "AREA": 533978 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9803.29, "region": "RU-KYA", "AREA": 4296560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7781.88, "region": "RU-KYA", "AREA": 2934450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3083.72, "region": "RU-KYA", "AREA": 645086 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3875.48, "region": "RU-KYA", "AREA": 1053180 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4981.01, "region": "RU-KYA", "AREA": 1439830 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3338.06, "region": "RU-KYA", "AREA": 711854 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3249.65, "region": "RU-KYA", "AREA": 723197 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6221.91, "region": "RU-KYA", "AREA": 1797940 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6491.1, "region": "RU-KYA", "AREA": 2661560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4244.06, "region": "RU-KYA", "AREA": 1044900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5549.18, "region": "RU-KYA", "AREA": 1798220 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6011.77, "region": "RU-KYA", "AREA": 1517590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8481.39, "region": "RU-KYA", "AREA": 3409450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3204.14, "region": "RU-KYA", "AREA": 681257 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11389.1, "region": "RU-KYA", "AREA": 7173290 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19077.6, "region": "RU-KYA", "AREA": 12635500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5212.84, "region": "RU-KYA", "AREA": 1660340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3490.83, "region": "RU-KYA", "AREA": 756440 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10799.4, "region": "RU-KYA", "AREA": 6450870 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10937.7, "region": "RU-KYA", "AREA": 5073550 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11737.8, "region": "RU-KYA", "AREA": 8006900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7313.77, "region": "RU-ARK", "AREA": 1673420 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3851.77, "region": "RU-KYA", "AREA": 1030700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4215.61, "region": "RU-KYA", "AREA": 1195890 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5637.22, "region": "RU-KYA", "AREA": 1802780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17980.2, "region": "RU-KYA", "AREA": 14019900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13894.9, "region": "RU-KYA", "AREA": 8473450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7036.62, "region": "RU-KYA", "AREA": 2522640 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3068.46, "region": "RU-KYA", "AREA": 657238 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8800.59, "region": "RU-KYA", "AREA": 4565530 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3772.51, "region": "RU-KYA", "AREA": 851600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13366.3, "region": "RU-KYA", "AREA": 5759680 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18072.9, "region": "RU-KYA", "AREA": 15299500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4526.74, "region": "RU-SA", "AREA": 837748 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4608.44, "region": "RU-KYA", "AREA": 1042790 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 50074.3, "region": "RU-KYA", "AREA": 61859200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9923.57, "region": "RU-SA", "AREA": 3186630 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17676.9, "region": "RU-KYA", "AREA": 13078800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18080.8, "region": "RU-KYA", "AREA": 15236800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11759.5, "region": "RU-KYA", "AREA": 6099510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 36632.5, "region": "RU-KYA", "AREA": 36345700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 43206.6, "region": "RU-KYA", "AREA": 41203300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10014.8, "region": "RU-KYA", "AREA": 5706420 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9445.35, "region": "RU-KYA", "AREA": 4116910 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 25721.7, "region": "RU-KYA", "AREA": 9397670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5775.49, "region": "RU-SA", "AREA": 2402250 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 36757.2, "region": "RU-KYA", "AREA": 31798500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21138.7, "region": "RU-ARK", "AREA": 7467900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 62158.7, "region": "RU-KYA", "AREA": 78075500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3471.08, "region": "RU-ARK", "AREA": 505384 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 50825.3, "region": "RU-KYA", "AREA": 33796500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3996.76, "region": "RU-KYA", "AREA": 1137020 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3232.4, "region": "RU-KYA", "AREA": 605812 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6625.71, "region": "RU-KYA", "AREA": 2604260 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19380.4, "region": "RU-ARK", "AREA": 16994000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7906.79, "region": "RU-KYA", "AREA": 3844560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3416.12, "region": "RU-SA", "AREA": 709284 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4331.22, "region": "RU-SA", "AREA": 984586 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 26951, "region": "RU-SA", "AREA": 25120800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3237.7, "region": "RU-KYA", "AREA": 688954 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8557.3, "region": "RU-SA", "AREA": 2429780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16821.2, "region": "RU-SA", "AREA": 10898700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5200.85, "region": "RU-KYA", "AREA": 1944360 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3668.44, "region": "RU-KYA", "AREA": 926528 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5690.56, "region": "RU-SA", "AREA": 1588140 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 20002.4, "region": "RU-SA", "AREA": 13917000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5114.81, "region": "RU-KYA", "AREA": 1518090 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5364.62, "region": "RU-SA", "AREA": 1225810 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 111313, "region": "RU-KYA", "AREA": 213361000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5048.13, "region": "RU-KYA", "AREA": 1279290 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13937.3, "region": "RU-KYA", "AREA": 11189800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4871.04, "region": "RU-KYA", "AREA": 1438940 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15096.7, "region": "RU-KYA", "AREA": 7886730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8173.71, "region": "RU-KYA", "AREA": 4588380 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12360.2, "region": "RU-SA", "AREA": 4181670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9876.53, "region": "RU-SA", "AREA": 5085410 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12429.6, "region": "RU-KYA", "AREA": 7481900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5515.24, "region": "RU-SA", "AREA": 1230370 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5366.04, "region": "RU-SA", "AREA": 1851700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4191.27, "region": "RU-SA", "AREA": 778427 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6931.53, "region": "RU-KYA", "AREA": 2686910 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12758.5, "region": "RU-SA", "AREA": 8974040 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10569.7, "region": "RU-SA", "AREA": 6281500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6128.04, "region": "RU-SA", "AREA": 2540060 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11738, "region": "RU-SA", "AREA": 8576440 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5395.76, "region": "RU-SA", "AREA": 1943010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6570.46, "region": "RU-KYA", "AREA": 2471490 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3610.97, "region": "RU-SA", "AREA": 439351 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21401.3, "region": "RU-SA", "AREA": 19071000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3887.55, "region": "RU-SA", "AREA": 535523 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6798.49, "region": "RU-KYA", "AREA": 1886110 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4890.36, "region": "RU-ARK", "AREA": 1331720 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4888.81, "region": "RU-SA", "AREA": 1093780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5728.25, "region": "RU-KYA", "AREA": 1623820 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6194.67, "region": "RU-SA", "AREA": 1356460 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9016.16, "region": "RU-KYA", "AREA": 4606070 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17649.6, "region": "RU-KYA", "AREA": 9967140 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 46789.3, "region": "RU-KYA", "AREA": 48586800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 30243.6, "region": "RU-ARK", "AREA": 24378800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19353.2, "region": "RU-KYA", "AREA": 12419000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3215.61, "region": "RU-NEN", "AREA": 504409 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6029.83, "region": "RU-KYA", "AREA": 2205110 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5804.73, "region": "RU-KYA", "AREA": 1495410 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12501.6, "region": "RU-ARK", "AREA": 4516060 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4230.58, "region": "RU-ARK", "AREA": 959593 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 210983, "region": "RU-KYA", "AREA": 261563000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6808.75, "region": "RU-KYA", "AREA": 2516020 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3612.09, "region": "RU-KYA", "AREA": 860656 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21515.4, "region": "RU-SA", "AREA": 21325400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7710.64, "region": "RU-SA", "AREA": 2475070 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4564.94, "region": "RU-KYA", "AREA": 1204500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5189.07, "region": "RU-SA", "AREA": 1669170 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8043.2, "region": "RU-ARK", "AREA": 2941170 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16867.8, "region": "RU-KYA", "AREA": 5616370 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4856.09, "region": "RU-ARK", "AREA": 1083520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3394.36, "region": "RU-KYA", "AREA": 686145 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7905.96, "region": "RU-KYA", "AREA": 2705480 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5862.49, "region": "RU-KYA", "AREA": 1476310 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5679.51, "region": "RU-KYA", "AREA": 2294740 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [31.485149847267763, 55.72800548159716],
                         [33.03330464885988, 55.64665632028901],
@@ -1471,51 +1134,7 @@
                         [31.485149847267763, 55.72800548159716]
                     ]
                 ] }, "properties": { "PERIMETER": 1719260, "region": "RU-SMO", "AREA": 49871500000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3622.28, "region": "RU-KYA", "AREA": 904887 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11670.2, "region": "RU-KYA", "AREA": 2733450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 25947.4, "region": "RU-KYA", "AREA": 20446000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3507.79, "region": "RU-KYA", "AREA": 764086 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 40392.9, "region": "RU-KYA", "AREA": 46519400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 68666.3999999, "region": "RU-ARK", "AREA": 63261100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10837.1, "region": "RU-ARK", "AREA": 6009580 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13698.1, "region": "RU-ARK", "AREA": 6076840 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5976.13, "region": "RU-KYA", "AREA": 1765010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3655.15, "region": "RU-ARK", "AREA": 673215 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4411.85, "region": "RU-KYA", "AREA": 1216100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8116.28, "region": "RU-KYA", "AREA": 3661240 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10889.8, "region": "RU-KYA", "AREA": 7765350 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13283.7, "region": "RU-KYA", "AREA": 4983790 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3035.28, "region": "RU-KYA", "AREA": 593176 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7205.21, "region": "RU-KYA", "AREA": 3193250 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 29998.7, "region": "RU-KYA", "AREA": 26032300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 62036.5, "region": "RU-KYA", "AREA": 54029900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 197457, "region": "RU-KYA", "AREA": 402040000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 20427.3, "region": "RU-KYA", "AREA": 7477570 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 89970.3, "region": "RU-KYA", "AREA": 86137400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 73697.6, "region": "RU-NEN", "AREA": 108915000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3147.36, "region": "RU-ARK", "AREA": 555688 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8922.61, "region": "RU-ARK", "AREA": 3158130 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5502.08, "region": "RU-KYA", "AREA": 1556430 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9389.51, "region": "RU-KYA", "AREA": 4244660 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3054.6, "region": "RU-ARK", "AREA": 506297 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3698.48, "region": "RU-KYA", "AREA": 909490 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 26116.4, "region": "RU-KYA", "AREA": 25031100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17061.2, "region": "RU-ARK", "AREA": 5850740 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4676.87, "region": "RU-KYA", "AREA": 1435990 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9595.61, "region": "RU-KYA", "AREA": 4054520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3694.02, "region": "RU-KYA", "AREA": 915021 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3626.11, "region": "RU-KYA", "AREA": 950717 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5377.46, "region": "RU-KAM", "AREA": 1984170 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12038.9, "region": "RU-KYA", "AREA": 5594210 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 114305, "region": "RU-SA", "AREA": 307819000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5219.09, "region": "RU-ARK", "AREA": 1125190 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6151.35, "region": "RU-KYA", "AREA": 2703300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3375.13, "region": "RU-KYA", "AREA": 761766 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4011.45, "region": "RU-KYA", "AREA": 773661 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12554.1, "region": "RU-KYA", "AREA": 8620590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3580.95, "region": "RU-KYA", "AREA": 868354 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6474.99, "region": "RU-KYA", "AREA": 2305930 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [71.62916388855174, 73.1651982079975],
                         [70.36903788725581, 73.01063480151203],
@@ -1778,35 +1397,7 @@
                         [65.47254828222029, 68.41440718760198]
                     ]
                 ] }, "properties": { "PERIMETER": 4918200, "region": "RU-KO", "AREA": 417593000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 32701, "region": "RU-KYA", "AREA": 33767100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4260.3, "region": "RU-NEN", "AREA": 739613 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6341.39, "region": "RU-NEN", "AREA": 1883530 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 40004.8, "region": "RU-KYA", "AREA": 90739000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9621.56, "region": "RU-KYA", "AREA": 4849570 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5648.19, "region": "RU-KYA", "AREA": 1093250 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9073.57, "region": "RU-KYA", "AREA": 4123780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13556.8, "region": "RU-NEN", "AREA": 6050540 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6680.03, "region": "RU-KYA", "AREA": 2003780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6549.5, "region": "RU-KYA", "AREA": 1859890 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19239.5, "region": "RU-KYA", "AREA": 9813020 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 73275, "region": "RU-KYA", "AREA": 109958000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4266.84, "region": "RU-KYA", "AREA": 908512 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14797.6, "region": "RU-YAN", "AREA": 2998040 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3270.99, "region": "RU-KYA", "AREA": 576278 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3572.88, "region": "RU-YAN", "AREA": 721590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 28280, "region": "RU-YAN", "AREA": 25208900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 47133.8, "region": "RU-YAN", "AREA": 101762000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4325.92, "region": "RU-YAN", "AREA": 687141 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3726.82, "region": "RU-KYA", "AREA": 912286 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3961.52, "region": "RU-YAN", "AREA": 817762 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3193.65, "region": "RU-KYA", "AREA": 597255 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3509.28, "region": "RU-YAN", "AREA": 710491 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4020.67, "region": "RU-NEN", "AREA": 964776 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4518.29, "region": "RU-YAN", "AREA": 838094 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3565.24, "region": "RU-YAN", "AREA": 699117 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3448.96, "region": "RU-YAN", "AREA": 711959 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 93406.1, "region": "RU-NEN", "AREA": 108649000 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [33.5013514493412, 54.003403261864534],
                         [34.50945225037793, 53.67393915856656],
@@ -1824,10 +1415,7 @@
                         [33.5013514493412, 54.003403261864534]
                     ]
                 ] }, "properties": { "PERIMETER": 1441810, "region": "RU-BRY", "AREA": 34920400000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4597.3, "region": "RU-KYA", "AREA": 1101810 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3499.36, "region": "RU-KYA", "AREA": 736764 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 48940, "region": "RU-KYA", "AREA": 42142700 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [158.54185437793248, 66.33186865811354],
                         [159.04590477845082, 66.23018220647836],
@@ -1912,44 +1500,8 @@
                         [158.46984717785844, 66.12036083871236],
                         [158.54185437793248, 66.33186865811354]
                     ]
-                ] }, "properties": { "PERIMETER": 6108870, "region": "RU-MAG", "AREA": 462572000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6599.83, "region": "RU-YAN", "AREA": 2490710 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3229.65, "region": "RU-KYA", "AREA": 701775 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3454.77, "region": "RU-YAN", "AREA": 830673 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6955.4, "region": "RU-KYA", "AREA": 1871650 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 50366, "region": "RU-KYA", "AREA": 61695200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3297.25, "region": "RU-KYA", "AREA": 597941 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3328.06, "region": "RU-KYA", "AREA": 587685 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6894.72, "region": "RU-KYA", "AREA": 1791180 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6993.98, "region": "RU-KYA", "AREA": 2123270 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 27701.4, "region": "RU-KYA", "AREA": 24771300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9125.75, "region": "RU-NEN", "AREA": 3445680 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10766.1, "region": "RU-NEN", "AREA": 5394980 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6465.46, "region": "RU-KYA", "AREA": 1349720 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3387.62, "region": "RU-KYA", "AREA": 639011 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3707.3, "region": "RU-KYA", "AREA": 817355 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3725.82, "region": "RU-KYA", "AREA": 647854 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16023, "region": "RU-KYA", "AREA": 14019300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3227.73, "region": "RU-NEN", "AREA": 635655 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10847.4, "region": "RU-NEN", "AREA": 4208510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 57113.6, "region": "RU-KYA", "AREA": 21934900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4354.17, "region": "RU-KYA", "AREA": 1102850 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11924.5, "region": "RU-NEN", "AREA": 5174610 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8377.57, "region": "RU-KYA", "AREA": 2558390 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4576.71, "region": "RU-SA", "AREA": 727426 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 77262.3999999, "region": "RU-SA", "AREA": 67222700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3469.8, "region": "RU-SA", "AREA": 648624 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7710.49, "region": "RU-KYA", "AREA": 3751270 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15536.5, "region": "RU-SA", "AREA": 8063270 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4968.83, "region": "RU-SA", "AREA": 780182 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8040.7, "region": "RU-SA", "AREA": 2022730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11887.3, "region": "RU-KYA", "AREA": 8848500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3677.9, "region": "RU-KYA", "AREA": 856604 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8673.49, "region": "RU-KYA", "AREA": 3939140 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8513.03, "region": "RU-SA", "AREA": 1609960 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 37035.1, "region": "RU-YAN", "AREA": 53330000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17205.5, "region": "RU-KYA", "AREA": 17499800 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+                ] }, "properties": { "PERIMETER": 6108870, "regionId":"4900000000000", "center":{"lat": "59.5638000", "lng": " 150.8034700", "cityname": "Магаданская область"}, "region": "RU-MAG", "AREA": 462572000000 } },
+         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [40.91809305696856, 58.575226127382145],
                         [41.170118257227756, 58.3189762692615],
@@ -1971,33 +1523,7 @@
                         [40.91809305696856, 58.575226127382145]
                     ]
                 ] }, "properties": { "PERIMETER": 1417360, "region": "RU-YAR", "AREA": 36156700000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4610.62, "region": "RU-SA", "AREA": 1041420 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5351.24, "region": "RU-KYA", "AREA": 1644800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 29472.1, "region": "RU-KYA", "AREA": 29242700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12380.9, "region": "RU-KYA", "AREA": 9923710 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5168.34, "region": "RU-KYA", "AREA": 1815840 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 29961.3, "region": "RU-SA", "AREA": 11026600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13053.4, "region": "RU-KYA", "AREA": 5931350 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5170.48, "region": "RU-SA", "AREA": 1059710 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 22387.4, "region": "RU-SA", "AREA": 32899300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 24236.8, "region": "RU-YAN", "AREA": 21138800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5660.87, "region": "RU-SA", "AREA": 1883210 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4569.95, "region": "RU-KYA", "AREA": 1194320 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3192.61, "region": "RU-SA", "AREA": 582958 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 25219, "region": "RU-KYA", "AREA": 25858500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5603.24, "region": "RU-KYA", "AREA": 2145520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 26459.9, "region": "RU-YAN", "AREA": 26804600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9078.6, "region": "RU-SA", "AREA": 5609080 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5513.71, "region": "RU-SA", "AREA": 1117020 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7596.76, "region": "RU-KYA", "AREA": 1914500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17432.2, "region": "RU-NEN", "AREA": 10952600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 30134.4, "region": "RU-SA", "AREA": 11017500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 132633, "region": "RU-KYA", "AREA": 829182000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 67745.8999999, "region": "RU-SA", "AREA": 21432300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8513.95, "region": "RU-SA", "AREA": 3069450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3748.55, "region": "RU-KYA", "AREA": 706536 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 25720.6, "region": "RU-SA", "AREA": 31343700 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+      { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [112.81728233090948, 74.0803762727141],
                         [111.9171923299838, 74.21866984693796],
@@ -2006,15 +1532,7 @@
                         [112.81728233090948, 74.0803762727141]
                     ]
                 ] }, "properties": { "PERIMETER": 198646, "region": "RU-SA", "AREA": 1910140000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9487.08, "region": "RU-SA", "AREA": 2101010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6162.47, "region": "RU-SA", "AREA": 1803030 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5606.44, "region": "RU-SA", "AREA": 2235420 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7366.09, "region": "RU-SA", "AREA": 1369090 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8369.9, "region": "RU-SA", "AREA": 3455970 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19801.5, "region": "RU-SA", "AREA": 8071980 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3120.01, "region": "RU-SA", "AREA": 459780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4232.38, "region": "RU-SA", "AREA": 860701 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+      { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [35.15751705104441, 55.955783133259956],
                         [35.625563851525754, 56.47641776563207],
@@ -2049,7 +1567,7 @@
                         [37.38974025334002, 55.809354642905305],
                         [37.38974025334002, 55.8052871848399]
                     ]
-                ] }, "properties": { "PERIMETER": 2162130, "region": "RU-MOS", "regionId":"7700000000000", "center": {"lat": "55.75222", "lng": " 37.61556", "cityname": "г. Москва"}, "AREA": 45938100000 } },
+                ] }, "properties": { "PERIMETER": 2162130,"regionId":"5000000000000", "region": "RU-MOS", "center": {"lat": "55.75222", "lng": " 37.61556", "cityname": "Московская область"}, "AREA": 45938100000 } },
           { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [35.33753505122954, 55.27245017827156],
@@ -2069,7 +1587,9 @@
                         [34.90549185078524, 54.75181554589945],
                         [35.33753505122954, 55.27245017827156]
                     ]
-                ] }, "properties": { "PERIMETER": 1421220, "region": "RU-KLU", "center": {"lat": "55.3333300", "lng": " 86.0833300", "cityname": "Кемеровская область"}, "AREA": 29801200000 } },
+                ] }, "properties": { "PERIMETER": 1421220, "region": "RU-KLU","regionId":"4000000000000",
+                        "center":{"lat": "54.5293", "lng": " 36.27542", "cityname": "Калужская область"},
+                        "AREA": 29801200000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [76.95769669403157, 72.26628997554252],
@@ -2087,17 +1607,7 @@
                         [137.19171955597605, 71.48127056891894]
                     ]
                 ] }, "properties": { "PERIMETER": 127610, "region": "RU-SA", "AREA": 423385000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10755.2, "region": "RU-SA", "AREA": 3048210 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7143.38, "region": "RU-SA", "AREA": 2069920 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6556.3, "region": "RU-SA", "AREA": 2824060 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9876.45, "region": "RU-SA", "AREA": 4518880 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6574.34, "region": "RU-KLU", "AREA": 2867030 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14510.2, "region": "RU-SA", "AREA": 4210310 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5720.87, "region": "RU-YAN", "AREA": 1647820 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21658.4, "region": "RU-SA", "AREA": 27793600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 25756.1, "region": "RU-YAN", "AREA": 10583900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8744.95, "region": "RU-YAN", "AREA": 4519980 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+     { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [111.26912752931733, 73.84446370492049],
                         [110.87308792891005, 73.75904708554694],
@@ -2106,73 +1616,7 @@
                         [111.26912752931733, 73.84446370492049]
                     ]
                 ] }, "properties": { "PERIMETER": 226607, "region": "RU-KYA", "AREA": 1333760000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13910.1, "region": "RU-NEN", "AREA": 9984160 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 28732.3, "region": "RU-SA", "AREA": 6755770 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5039.27, "region": "RU-NEN", "AREA": 1343360 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9320.94, "region": "RU-YAN", "AREA": 4325840 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7924.86, "region": "RU-SA", "AREA": 2031310 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4428.7, "region": "RU-YAN", "AREA": 1091730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21868.9, "region": "RU-YAN", "AREA": 24844900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 33743.7, "region": "RU-SA", "AREA": 30067600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3108.13, "region": "RU-SA", "AREA": 573672 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5580.03, "region": "RU-SA", "AREA": 2027190 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3131.2, "region": "RU-SA", "AREA": 467472 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13616.9, "region": "RU-SA", "AREA": 10622500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9339.19, "region": "RU-NEN", "AREA": 3840780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3502.88, "region": "RU-SA", "AREA": 417527 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4986.5, "region": "RU-SA", "AREA": 1405320 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3646.01, "region": "RU-SA", "AREA": 532281 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6678.5, "region": "RU-SA", "AREA": 1845190 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19034.2, "region": "RU-SA", "AREA": 15700000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7548.16, "region": "RU-SA", "AREA": 2922830 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9499.78, "region": "RU-SA", "AREA": 3221950 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5420.34, "region": "RU-SA", "AREA": 1532190 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8490.78, "region": "RU-SA", "AREA": 2630110 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6240.21, "region": "RU-SA", "AREA": 1781090 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4384.74, "region": "RU-SA", "AREA": 1405280 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3322.32, "region": "RU-SA", "AREA": 692822 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7597.77, "region": "RU-SA", "AREA": 2367430 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3370.48, "region": "RU-YAN", "AREA": 542270 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7462.4, "region": "RU-SA", "AREA": 2487050 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7544.59, "region": "RU-SA", "AREA": 1982220 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 24994.3, "region": "RU-SA", "AREA": 30128800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12647.1, "region": "RU-SA", "AREA": 4416160 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5064.57, "region": "RU-SA", "AREA": 1384570 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7895.14, "region": "RU-SA", "AREA": 2900730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13887.4, "region": "RU-SA", "AREA": 3465700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17305.9, "region": "RU-SA", "AREA": 5390890 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1757.76, "region": "RU-SA", "AREA": 193612 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 477.624, "region": "RU-KYA", "AREA": 7864 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9775.76, "region": "RU-SA", "AREA": 3549910 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8912.82, "region": "RU-SA", "AREA": 4379200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7360.05, "region": "RU-SA", "AREA": 2593220 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13450.1, "region": "RU-SA", "AREA": 7818520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5783.88, "region": "RU-SA", "AREA": 1937130 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5519.24, "region": "RU-SA", "AREA": 1864110 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4227.2, "region": "RU-SA", "AREA": 907686 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3248.6, "region": "RU-SA", "AREA": 526421 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4368.76, "region": "RU-SA", "AREA": 1105000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13940.9, "region": "RU-SA", "AREA": 13058300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18172, "region": "RU-KYA", "AREA": 11249200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1339.55, "region": "RU-SA", "AREA": 120535 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7748.76, "region": "RU-SA", "AREA": 1832720 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11186.8, "region": "RU-SA", "AREA": 6138390 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9707.75, "region": "RU-SA", "AREA": 5392340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13418.6, "region": "RU-SA", "AREA": 11200600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15733.2, "region": "RU-SA", "AREA": 10316200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4597.81, "region": "RU-SA", "AREA": 1304730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18210, "region": "RU-SA", "AREA": 18390200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 37427.2, "region": "RU-SA", "AREA": 57579200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14942.1, "region": "RU-SA", "AREA": 7594190 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4320.83, "region": "RU-KYA", "AREA": 1115860 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10969.7, "region": "RU-SA", "AREA": 3469030 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5033, "region": "RU-SA", "AREA": 861397 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15176.2, "region": "RU-SA", "AREA": 6846740 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9177.75, "region": "RU-SA", "AREA": 5146310 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4200.24, "region": "RU-SA", "AREA": 535717 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13808.5, "region": "RU-SA", "AREA": 8961690 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11082.6, "region": "RU-KYA", "AREA": 4524860 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [119.94599513824059, 73.14486091767047],
                         [119.94599513824059, 73.1651982079975],
@@ -2181,16 +1625,7 @@
                         [119.94599513824059, 73.14486091767047]
                     ]
                 ] }, "properties": { "PERIMETER": 21249.6, "region": "RU-SA", "AREA": 13402600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4618.27, "region": "RU-SA", "AREA": 811410 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9796.97, "region": "RU-SA", "AREA": 4115930 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6120.1, "region": "RU-SA", "AREA": 1578460 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8144.9, "region": "RU-SA", "AREA": 3315770 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4291.04, "region": "RU-SA", "AREA": 898546 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16477.6, "region": "RU-SA", "AREA": 9609730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12458.4, "region": "RU-SA", "AREA": 6484770 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 27375.2, "region": "RU-SA", "AREA": 37620800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10218, "region": "RU-SA", "AREA": 4244360 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+     { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [120.27002753857383, 73.0553768402315],
                         [120.05400593835171, 73.03097209183906],
@@ -2199,46 +1634,6 @@
                         [120.27002753857383, 73.0553768402315]
                     ]
                 ] }, "properties": { "PERIMETER": 40623.2, "region": "RU-SA", "AREA": 74325200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8056.9, "region": "RU-SA", "AREA": 2102820 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4941.6, "region": "RU-SA", "AREA": 755225 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3379.53, "region": "RU-SA", "AREA": 399412 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3469.2, "region": "RU-SA", "AREA": 548704 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7443.86, "region": "RU-SA", "AREA": 3470510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10714.9, "region": "RU-SA", "AREA": 6525290 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6343.23, "region": "RU-SA", "AREA": 1176860 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17186.5, "region": "RU-SA", "AREA": 8670670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7578.91, "region": "RU-SA", "AREA": 2337560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4415.65, "region": "RU-KYA", "AREA": 1133280 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4307.12, "region": "RU-KYA", "AREA": 1180470 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16848, "region": "RU-SA", "AREA": 15277600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3107.59, "region": "RU-KYA", "AREA": 444706 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3524.79, "region": "RU-SA", "AREA": 622155 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5352.71, "region": "RU-SA", "AREA": 912934 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21564.6, "region": "RU-SA", "AREA": 17258500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15762.3, "region": "RU-SA", "AREA": 6833970 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 26378.8, "region": "RU-SA", "AREA": 22902000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15705.4, "region": "RU-SA", "AREA": 15349200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4500.5, "region": "RU-SA", "AREA": 944484 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5874.89, "region": "RU-SA", "AREA": 2118910 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7090.47, "region": "RU-SA", "AREA": 1751710 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3176.19, "region": "RU-SA", "AREA": 593483 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14928.2, "region": "RU-KYA", "AREA": 7041290 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4600.38, "region": "RU-SA", "AREA": 1216640 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10317.7, "region": "RU-SA", "AREA": 3592370 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3526.81, "region": "RU-SA", "AREA": 430932 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4343.75, "region": "RU-SA", "AREA": 881178 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8348.89, "region": "RU-SA", "AREA": 2445870 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12570.6, "region": "RU-SA", "AREA": 2572510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10501.6, "region": "RU-KYA", "AREA": 7057720 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 42063.1, "region": "RU-MOW", "AREA": 37361100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8685.8, "region": "RU-SA", "AREA": 2521980 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7415.62, "region": "RU-SA", "AREA": 2109130 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5987.88, "region": "RU-KAM", "AREA": 1709610 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13496, "region": "RU-SA", "AREA": 9030060 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5959.78, "region": "RU-SA", "AREA": 2036790 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1783.06, "region": "RU-SA", "AREA": 160913 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7880.41, "region": "RU-SA", "AREA": 3063940 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 22965.6, "region": "RU-SA", "AREA": 18222400 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [40.91809305696856, 58.575226127382145],
@@ -2277,12 +1672,7 @@
                         [37.38974025334002, 55.8052871848399],
                         [37.38974025334002, 55.809354642905305]
                     ]
-                ] }, "properties": { "PERIMETER": 269474, "region": "RU-MOW", "AREA": 1009120000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 32802.4, "region": "RU-SA", "AREA": 29026800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3516.13, "region": "RU-SA", "AREA": 484849 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 53006.7, "region": "RU-YAN", "AREA": 150445000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5685.47, "region": "RU-SA", "AREA": 2287840 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8596.84, "region": "RU-YAN", "AREA": 3819890 } },
+                ] }, "properties": { "PERIMETER": 269474,"regionId":"7700000000000", "center": {"lat": "55.75222", "lng": " 37.61556", "cityname": "г. Москва"}, "region": "RU-MOW", "AREA": 1009120000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [38.32583385430269, 56.65945337857539],
@@ -2306,22 +1696,8 @@
                         [38.685869854672944, 55.984255339717805],
                         [38.32583385430269, 56.65945337857539]
                     ]
-                ] }, "properties": { "PERIMETER": 1415010, "region": "RU-VLA", "AREA": 29138200000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18007.7, "region": "RU-SA", "AREA": 6944280 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12489.2, "region": "RU-MOW", "AREA": 2837390 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 42958.7, "region": "RU-YAN", "AREA": 69154800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3803.67, "region": "RU-MOW", "AREA": 344483 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8611.86, "region": "RU-MOW", "AREA": 4348210 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3755.69, "region": "RU-YAN", "AREA": 743174 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17923.4, "region": "RU-MOW", "AREA": 12871800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 18190.8, "region": "RU-KYA", "AREA": 12737200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3876.51, "region": "RU-MOW", "AREA": 517352 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3694.87, "region": "RU-YAN", "AREA": 522838 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13837.4, "region": "RU-YAN", "AREA": 6060520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3360.84, "region": "RU-KYA", "AREA": 803964 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16717.2, "region": "RU-SA", "AREA": 4802010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5304.02, "region": "RU-SA", "AREA": 651628 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+                ] }, "properties": { "PERIMETER": 1415010,"regionId":"3300000000000", "center":{ "lat": "56.13655", "lng": " 40.39658", "cityname": "Владимирская область"}, "region": "RU-VLA", "AREA": 29138200000 } },
+      { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [37.281729453228934, 54.837232165272994],
                         [38.0378050540065, 54.71927588137619],
@@ -2338,7 +1714,6 @@
                         [37.281729453228934, 54.837232165272994]
                     ]
                 ] }, "properties": { "PERIMETER": 1232510, "region": "RU-TUL", "AREA": 25714300000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11190.3, "region": "RU-MOW", "AREA": 2995520 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [35.12151345100739, 53.27939572622207],
@@ -2355,10 +1730,7 @@
                         [35.12151345100739, 53.27939572622207]
                     ]
                 ] }, "properties": { "PERIMETER": 1145650, "region": "RU-ORL", "AREA": 24667200000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9186.02, "region": "RU-MOW", "AREA": 3664950 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5418.67, "region": "RU-KYA", "AREA": 1937500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5119.68, "region": "RU-KYA", "AREA": 1648830 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [39.40594185541349, 56.765207288275974],
                         [39.837985055857786, 57.16788563675128],
@@ -2372,16 +1744,8 @@
                         [39.909992255931854, 56.765207288275974],
                         [39.40594185541349, 56.765207288275974]
                     ]
-                ] }, "properties": { "PERIMETER": 1189620, "region": "RU-IVA", "AREA": 21633900000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7623.03, "region": "RU-KYA", "AREA": 2878960 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10413.4, "region": "RU-MOW", "AREA": 5479920 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16495.6, "region": "RU-KYA", "AREA": 9188750 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3183.43, "region": "RU-KYA", "AREA": 584685 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14169.4, "region": "RU-KYA", "AREA": 9019470 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5208.71, "region": "RU-KYA", "AREA": 1029670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4631.5, "region": "RU-KYA", "AREA": 861990 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12389.4, "region": "RU-KYA", "AREA": 7539220 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+                ] }, "properties": { "PERIMETER": 1189620,"regionId":"3700000000000", "center":{"lat": "56.99719", "lng": " 40.97139", "cityname": "Ивановская область"}, "region": "RU-IVA", "AREA": 21633900000 } },
+     { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [34.94149545082226, 52.364217661505464],
                         [35.589560251488734, 52.4414993647482],
@@ -2550,18 +1914,7 @@
                         [38.28983025426567, 51.29447619030339]
                     ]
                 ] }, "properties": { "PERIMETER": 1313450, "region": "RU-BEL", "AREA": 27156700000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 69184.8999999, "region": "RU-KYA", "AREA": 99273300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5867.2, "region": "RU-KYA", "AREA": 1401090 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7168.27, "region": "RU-KYA", "AREA": 1917600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4512.46, "region": "RU-KYA", "AREA": 1102410 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3712.84, "region": "RU-KYA", "AREA": 664968 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11236.1, "region": "RU-KYA", "AREA": 3538920 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 31749.2, "region": "RU-KYA", "AREA": 33862400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3814.39, "region": "RU-KYA", "AREA": 758788 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5981.84, "region": "RU-KYA", "AREA": 1840760 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16357.7, "region": "RU-KYA", "AREA": 6244810 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5989.75, "region": "RU-KYA", "AREA": 1608020 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [43.29433065941228, 57.42820295293734],
                         [43.94239546007876, 57.420068036806526],
@@ -2595,13 +1948,6 @@
                         [43.29433065941228, 57.42820295293734]
                     ]
                 ] }, "properties": { "PERIMETER": 2311200, "region": "RU-NIZ", "AREA": 76790200000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4175.17, "region": "RU-KYA", "AREA": 679117 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11137, "region": "RU-KYA", "AREA": 6099990 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4700.32, "region": "RU-KYA", "AREA": 1261670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 20392, "region": "RU-KYA", "AREA": 13568100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 23886.7, "region": "RU-KYA", "AREA": 18464600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 46923.4, "region": "RU-KYA", "AREA": 72112200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4218.77, "region": "RU-KYA", "AREA": 727636 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [38.93789505493214, 53.56818524886597],
@@ -2620,9 +1966,7 @@
                         [38.613862654598904, 53.04348315842846],
                         [38.93789505493214, 53.56818524886597]
                     ]
-                ] }, "properties": { "PERIMETER": 1198900, "region": "RU-LIP", "AREA": 24070400000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3694.82, "region": "RU-KYA", "AREA": 642835 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5785.57, "region": "RU-KYA", "AREA": 1458920 } },
+                ] }, "properties": { "PERIMETER": 1198900, "regionId":"4800000000000", "center":{"lat": "52.60311", "lng": " 39.57076", "cityname": "Липецкая область"}, "region": "RU-LIP", "AREA": 24070400000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [83.3303339005852, 69.88275954921394],
@@ -2635,7 +1979,6 @@
                         [83.3303339005852, 69.88275954921394]
                     ]
                 ] }, "properties": { "PERIMETER": 83143, "region": "RU-KYA", "AREA": 139392000 } },
-        { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [] }, "properties": { "PERIMETER": 51270.8, "region": "RU-KYA", "AREA": 55956000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [62.01620267866579, 65.71361503217165],
@@ -2730,12 +2073,7 @@
                         [83.29433030054818, 69.89496192341016]
                     ]
                 ] }, "properties": { "PERIMETER": 20445.8, "region": "RU-KYA", "AREA": 14404500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4998.24, "region": "RU-MAG", "AREA": 1431750 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 47902.5, "region": "RU-KYA", "AREA": 131106000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6217.41, "region": "RU-KYA", "AREA": 1790060 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13480, "region": "RU-KYA", "AREA": 9131050 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19067.5, "region": "RU-KYA", "AREA": 17232800 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [38.28983025426567, 51.29447619030339],
                         [38.469848254450795, 51.69308708071329],
@@ -2756,7 +2094,7 @@
                         [38.86588785485807, 51.03415887411734],
                         [38.28983025426567, 51.29447619030339]
                     ]
-                ] }, "properties": { "PERIMETER": 1630490, "region": "RU-VOR", "AREA": 52206800000 } },
+                ] }, "properties": { "PERIMETER": 1630490, "regionId":"3600000000000", "center":{"lat": "51.67204", "lng": " 39.1843", "cityname": "Воронежская область"}, "region": "RU-VOR", "AREA": 52206800000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [69.57695868644126, 66.79962633563535],
@@ -2767,9 +2105,7 @@
                         [69.57695868644126, 66.79962633563535]
                     ]
                 ] }, "properties": { "PERIMETER": 59491.7, "region": "RU-YAN", "AREA": 77596300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4491.04, "region": "RU-YAN", "AREA": 989055 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 46194.6, "region": "RU-YAN", "AREA": 68811600 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [42.14221545822744, 53.80409781665959],
                         [42.14221545822744, 53.49497100368865],
@@ -2787,8 +2123,6 @@
                         [42.14221545822744, 53.80409781665959]
                     ]
                 ] }, "properties": { "PERIMETER": 1219420, "region": "RU-TAM", "AREA": 34463000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16859.5, "region": "RU-YAN", "AREA": 8651880 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7291.23, "region": "RU-YAN", "AREA": 2276040 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [69.82898388670043, 66.55151139364551],
@@ -2799,13 +2133,6 @@
                         [69.82898388670043, 66.55151139364551]
                     ]
                 ] }, "properties": { "PERIMETER": 116044, "region": "RU-YAN", "AREA": 218402000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9261.32, "region": "RU-YAN", "AREA": 4294360 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12210.6, "region": "RU-YAN", "AREA": 5093880 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12217.6, "region": "RU-YAN", "AREA": 4080960 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 48830.5, "region": "RU-YAN", "AREA": 36190700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7539.66, "region": "RU-YAN", "AREA": 1810270 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 91481.3999999, "region": "RU-YAN", "AREA": 208998000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 36356, "region": "RU-YAN", "AREA": 37125700 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [110.87308792891005, 73.69396775650043],
@@ -3022,10 +2349,6 @@
                         [110.87308792891005, 73.69396775650043]
                     ]
                 ] }, "properties": { "PERIMETER": 396257, "region": "RU-KYA", "AREA": 4496400000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3091.69, "region": "RU-KAM", "AREA": 372546 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 153784, "region": "RU-KAM", "AREA": 253508000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4020.52, "region": "RU-YAN", "AREA": 689592 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8034.56, "region": "RU-MO", "AREA": 3655840 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [42.43024425852366, 54.79249012655352],
@@ -3059,21 +2382,7 @@
                         [42.43024425852366, 54.79249012655352]
                     ]
                 ] }, "properties": { "PERIMETER": 1796020, "region": "RU-MO", "AREA": 26149800000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 60574.2, "region": "RU-YAN", "AREA": 98940200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 54938.4, "region": "RU-YAN", "AREA": 101905000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17661.6, "region": "RU-RYA", "AREA": 16473100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10166.5, "region": "RU-YAN", "AREA": 3811980 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 260118, "region": "RU-YAN", "AREA": 830621000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12012.4, "region": "RU-YAN", "AREA": 6513240 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6493.85, "region": "RU-YAN", "AREA": 1860830 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10770.7, "region": "RU-YAN", "AREA": 6530700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 105138, "region": "RU-YAN", "AREA": 407884000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4304.08, "region": "RU-YAN", "AREA": 1217420 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9272.98, "region": "RU-YAN", "AREA": 3788900 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5278.38, "region": "RU-YAN", "AREA": 866979 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15567.2, "region": "RU-YAN", "AREA": 11057800 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4302.55, "region": "RU-MO", "AREA": 913496 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+      { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [46.71467266292976, 56.96451273348092],
                         [47.254726663485144, 56.80994932699545],
@@ -3092,20 +2401,7 @@
                         [46.71467266292976, 56.96451273348092]
                     ]
                 ] }, "properties": { "PERIMETER": 1362520, "region": "RU-ME", "AREA": 23393200000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3794.64, "region": "RU-RYA", "AREA": 947276 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4989.33, "region": "RU-YAN", "AREA": 1461240 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3528.39, "region": "RU-KAM", "AREA": 781750 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 253334, "region": "RU-KAM", "AREA": 1261510000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12340.5, "region": "RU-YAN", "AREA": 7738510 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4014.48, "region": "RU-YAN", "AREA": 907252 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9533.17, "region": "RU-YAN", "AREA": 5568430 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5339.12, "region": "RU-YAN", "AREA": 1671040 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5625.87, "region": "RU-YAN", "AREA": 2071310 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4300.99, "region": "RU-YAN", "AREA": 755323 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5226.74, "region": "RU-YAN", "AREA": 1319330 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4259.8, "region": "RU-YAN", "AREA": 938350 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3560.32, "region": "RU-YAN", "AREA": 626797 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+   { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [174.45544559429797, 61.82512512164244],
                         [173.48334839329826, 61.54040305706394],
@@ -3207,7 +2503,6 @@
                         [174.45544559429797, 61.82512512164244]
                     ]
                 ] }, "properties": { "PERIMETER": 2936470, "region": "RU-KAM", "AREA": 169950000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6077.95, "region": "RU-YAN", "AREA": 1276140 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [42.35823705844962, 53.852907313444476],
@@ -3232,14 +2527,8 @@
                         [42.14221545822744, 53.80409781665959],
                         [42.35823705844962, 53.852907313444476]
                     ]
-                ] }, "properties": { "PERIMETER": 1674870, "region": "RU-PNZ", "AREA": 43351300000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3247.52, "region": "RU-YAN", "AREA": 674723 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5661.78, "region": "RU-RYA", "AREA": 1554660 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 26437.8, "region": "RU-YAN", "AREA": 32479500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 16327.8, "region": "RU-YAN", "AREA": 10604300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5956.57, "region": "RU-YAN", "AREA": 1604220 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 17761.5, "region": "RU-YAN", "AREA": 14774100 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+                ] }, "properties": { "PERIMETER": 1674870,"regionId":"5800000000000", "center":{"lat": "53.2006600", "lng": " 45.0046400", "cityname": "Пензенская область"}, "region": "RU-PNZ", "AREA": 43351300000 } },
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [59.35193627592588, 61.65835934096074],
                         [59.27992907585181, 61.271950824747066],
@@ -3283,18 +2572,7 @@
                         [59.35193627592588, 61.65835934096074]
                     ]
                 ] }, "properties": { "PERIMETER": 2876730, "region": "RU-PER", "AREA": 128003000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10656.3, "region": "RU-YAN", "AREA": 4395820 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6283.72, "region": "RU-YAN", "AREA": 2328930 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7810.35, "region": "RU-YAN", "AREA": 3944650 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14324.7, "region": "RU-YAN", "AREA": 10896000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12346, "region": "RU-YAN", "AREA": 5021520 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10695.4, "region": "RU-YAN", "AREA": 6994780 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 13057.6, "region": "RU-YAN", "AREA": 4964450 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15111.5, "region": "RU-YAN", "AREA": 4903390 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3997.32, "region": "RU-YAN", "AREA": 746641 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9604.87, "region": "RU-YAN", "AREA": 3766730 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5586.8, "region": "RU-YAN", "AREA": 1444670 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+      { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [46.17461866237437, 56.02899737843728],
                         [46.7866798630038, 56.18762824298816],
@@ -3310,8 +2588,6 @@
                         [46.17461866237437, 56.02899737843728]
                     ]
                 ] }, "properties": { "PERIMETER": 1090420, "region": "RU-CU", "AREA": 18379500000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 2345.16, "region": "RU-CU", "AREA": 246041 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8695.38, "region": "RU-MO", "AREA": 2145630 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [59.35193627592588, 61.65835934096074],
@@ -3379,8 +2655,7 @@
                         [53.80738187022388, 58.45320238541993]
                     ]
                 ] }, "properties": { "PERIMETER": 1991170, "region": "RU-UD", "AREA": 42104800000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4638.97, "region": "RU-PNZ", "AREA": 1024320 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [43.04230545915311, 52.36828511957087],
                         [43.76237745989363, 52.43336444861739],
@@ -3413,7 +2688,6 @@
                         [43.04230545915311, 52.36828511957087]
                     ]
                 ] }, "properties": { "PERIMETER": 2495300, "region": "RU-SAR", "AREA": 101141000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12969.3, "region": "RU-MAG", "AREA": 7418990 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [42.898291059005004, 51.22939686125688],
@@ -3474,7 +2748,6 @@
                         [46.42664386263354, 54.755883003964854]
                     ]
                 ] }, "properties": { "PERIMETER": 1872670, "region": "RU-ULY", "AREA": 37242500000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5471.74, "region": "RU-MAG", "AREA": 1244440 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [48.406841864669985, 55.82562447516693],
@@ -3511,11 +2784,8 @@
                         [47.90279146415162, 55.45955324928029],
                         [48.406841864669985, 55.82562447516693]
                     ]
-                ] }, "properties": { "PERIMETER": 3164320, "region": "RU-TA", "AREA": 68035300000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 849.714, "region": "RU-ULY", "AREA": 42265.5 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5026.43, "region": "RU-MAG", "AREA": 988621 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 1598.84, "region": "RU-ULY", "AREA": 158012 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+                ] }, "properties": { "PERIMETER": 3164320, "regionId":"0400000000000", "center":{"lat": "55.7887400", "lng": " 49.1221400", "cityname": "Республика Татарстан"}, "region": "RU-TA", "AREA": 68035300000 } },
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [41.386139857449905, 50.20032997070888],
                         [42.14221545822744, 49.732572293187054],
@@ -3549,12 +2819,7 @@
                         [40.91809305696856, 49.7000326286638],
                         [41.386139857449905, 50.20032997070888]
                     ]
-                ] }, "properties": { "PERIMETER": 2704200, "region": "RU-ROS", "AREA": 101055000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9692.96, "region": "RU-TA", "AREA": 2432250 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5727.13, "region": "RU-MAG", "AREA": 1926250 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7481.01, "region": "RU-TA", "AREA": 1133590 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4369.25, "region": "RU-TA", "AREA": 811958 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 2833.24, "region": "RU-TA", "AREA": 365319 } },
+                ] }, "properties": { "PERIMETER": 2704200,"regionId":"6100000000000", "center":{"lat": "47.23135", "lng": " 39.72328", "cityname": "Ростовская область"}, "region": "RU-ROS", "AREA": 101055000000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [41.170118257227756, 45.949836292358434],
@@ -3592,8 +2857,7 @@
                         [39.873988655894806, 44.38386493717669],
                         [40.27002825630211, 43.7615438531694]
                     ]
-                ] }, "properties": { "PERIMETER": 3204950, "region": "RU-KDA", "AREA": 75617300000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9055.99, "region": "RU-KDA", "AREA": 2657950 } },
+                ] }, "properties": { "PERIMETER": 3204950,"regionId":"2300000000000", "center":{"lat": "45.04484", "lng": " 38.97603", "cityname": "Краснодарский край"}, "region": "RU-KDA", "AREA": 75617300000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [146.94869516601008, 59.368380450136534],
@@ -3716,11 +2980,6 @@
                         [146.94869516601008, 59.368380450136534]
                     ]
                 ] }, "properties": { "PERIMETER": 10883700, "region": "RU-KHA", "AREA": 782666000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3211.36, "region": "RU-SAR", "AREA": 635486 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5570.33, "region": "RU-KAM", "AREA": 1403390 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4047.88, "region": "RU-PNZ", "AREA": 406242 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7339.56, "region": "RU-MAG", "AREA": 3386910 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12382.1, "region": "RU-TA", "AREA": 3080310 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [50.099011066410185, 54.50776806197502],
@@ -3744,11 +3003,7 @@
                         [50.099011066410185, 54.50776806197502]
                     ]
                 ] }, "properties": { "PERIMETER": 1821300, "region": "RU-SAM", "AREA": 53541500000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 53508.3, "region": "RU-MAG", "AREA": 122363000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 45274.5, "region": "RU-UD", "AREA": 48921500 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4721.65, "region": "RU-TA", "AREA": 910198 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3440.1, "region": "RU-TA", "AREA": 680806 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+       { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [40.27002825630211, 43.7615438531694],
                         [39.873988655894806, 44.38386493717669],
@@ -3760,7 +3015,6 @@
                         [40.27002825630211, 43.7615438531694]
                     ]
                 ] }, "properties": { "PERIMETER": 1102230, "region": "RU-AD", "AREA": 7784290000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5999.77, "region": "RU-ULY", "AREA": 1547540 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [53.69937107011279, 55.9232434687367],
@@ -3806,8 +3060,6 @@
                         [53.69937107011279, 55.9232434687367]
                     ]
                 ] }, "properties": { "PERIMETER": 3715290, "region": "RU-BA", "AREA": 142986000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 5652.61, "region": "RU-MAG", "AREA": 1881990 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 38084.8, "region": "RU-MAG", "AREA": 37321000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [41.170118257227756, 45.949836292358434],
@@ -3833,7 +3085,6 @@
                         [41.170118257227756, 45.949836292358434]
                     ]
                 ] }, "properties": { "PERIMETER": 1705460, "region": "RU-STA", "AREA": 66180200000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3327.68, "region": "RU-KAM", "AREA": 602999 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [52.583259468965, 54.33693482322792],
@@ -3877,7 +3128,6 @@
                         [52.583259468965, 54.33693482322792]
                     ]
                 ] }, "properties": { "PERIMETER": 3829650, "region": "RU-ORE", "AREA": 124242000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8269.32, "region": "RU-SVE", "AREA": 3294480 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [43.72637385985661, 47.471065608820695],
@@ -3936,7 +3186,7 @@
                         [45.706571861893025, 47.92662091214629],
                         [44.95049626111549, 48.26828738964049]
                     ]
-                ] }, "properties": { "PERIMETER": 2049380, "region": "RU-AST", "AREA": 50589800000 } },
+                ] }, "properties": { "PERIMETER": 2049380,"regionId":"300000000000", "center":{ "lat": "46.34968", "lng": " 48.04076", "cityname": "Астраханская область"}, "region": "RU-AST", "AREA": 50589800000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [41.74617585782016, 44.46521409848483],
@@ -3990,7 +3240,7 @@
                         [72.99730068995873, 58.87621802422227],
                         [75.12151309214326, 58.664710204821105]
                     ]
-                ] }, "properties": { "PERIMETER": 2961180, "region": "RU-TYU", "center": {"lat": "51.7147200", "lng": " 94.4533800", "cityname": "Республика Тыва"}, "AREA": 159839000000 } },
+                ] }, "properties": { "PERIMETER": 2961180, "region": "RU-TYU", "regionId":"7200000000000",  "center": {"lat": "57.1522200", "lng": " 65.5272200", "cityname": "Тюменская область"} "AREA": 159839000000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [59.02790387559264, 56.16322349459572],
@@ -4029,7 +3279,7 @@
                         [59.45994707603694, 55.47175562347651],
                         [59.02790387559264, 56.16322349459572]
                     ]
-                ] }, "properties": { "PERIMETER": 3329490, "region": "RU-CHE", "AREA": 88634600000 } },
+                ] }, "properties": { "PERIMETER": 3329490,"regionId":"7400000000000", "center":{"lat": "55.1540200", "lng": " 61.4291500", "cityname": "Челябинская область"}, "region": "RU-CHE", "AREA": 88634600000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [119.11791233738901, 58.23762710795336],
@@ -4222,8 +3472,6 @@
                         [42.682269458782855, 43.81442080801969]
                     ]
                 ] }, "properties": { "PERIMETER": 708767, "region": "RU-KB", "AREA": 12455100000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8742.75, "region": "RU-KAM", "AREA": 2649670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4290.46, "region": "RU-KAM", "AREA": 1207460 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [75.12151309214326, 58.575226127382145],
@@ -4262,7 +3510,6 @@
                         [75.12151309214326, 58.575226127382145]
                     ]
                 ] }, "properties": { "PERIMETER": 2998780, "region": "RU-OMS", "AREA": 141206000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 82316.6, "region": "RU-SAK", "AREA": 396293000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [44.302431460449014, 43.81035334995428],
@@ -4395,13 +3642,6 @@
                         [143.1683171621224, 52.41302715829035]
                     ]
                 ] }, "properties": { "PERIMETER": 3490750, "region": "RU-SAK", "AREA": 74753800000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9529.36, "region": "RU-SAK", "AREA": 4032050 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 61854.6, "region": "RU-SAK", "AREA": 113146000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 23166.1, "region": "RU-SAK", "AREA": 30442400 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9058.22, "region": "RU-SAK", "AREA": 5928980 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19426.3, "region": "RU-KHA", "AREA": 24568700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4728.5, "region": "RU-SAK", "AREA": 1129620 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3047.98, "region": "RU-KHA", "AREA": 206358 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [137.69576995649444, 54.6094545136102],
@@ -4410,18 +3650,7 @@
                         [137.69576995649444, 54.6094545136102]
                     ]
                 ] }, "properties": { "PERIMETER": 229724, "region": "RU-KHA", "AREA": 1880180000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 35060.2, "region": "RU-SAK", "AREA": 31212600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 12575.8, "region": "RU-KHA", "AREA": 5824560 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9982.82, "region": "RU-KHA", "AREA": 5346640 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3728.65, "region": "RU-SAK", "AREA": 729752 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 117650, "region": "RU-KHA", "AREA": 377502000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7724.55, "region": "RU-SAK", "AREA": 4364280 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11310.6, "region": "RU-KHA", "AREA": 7955180 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 21803.5, "region": "RU-SAK", "AREA": 13382600 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3444.6, "region": "RU-SAK", "AREA": 759845 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 30265.4, "region": "RU-SAK", "AREA": 52426300 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3773.26, "region": "RU-KHA", "AREA": 891177 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+     { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [119.11791233738901, 58.23762710795336],
                         [119.081908737352, 57.77800434656235],
@@ -4488,17 +3717,7 @@
                         [119.11791233738901, 58.23762710795336]
                     ]
                 ] }, "properties": { "PERIMETER": 6459740, "region": "RU-ZAB", "AREA": 413018000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11383.4, "region": "RU-KHA", "AREA": 5616010 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 39266.2, "region": "RU-KHA", "AREA": 12752200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 49863.2, "region": "RU-KHA", "AREA": 68264000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 30876.1, "region": "RU-KHA", "AREA": 19227000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4466.58, "region": "RU-KHA", "AREA": 922042 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 55634.1, "region": "RU-KHA", "AREA": 74414700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9574.99, "region": "RU-SAK", "AREA": 3171480 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7411.06, "region": "RU-KHA", "AREA": 3070480 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 35511.7, "region": "RU-SAK", "AREA": 63092200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 19454.8, "region": "RU-SAK", "AREA": 11216700 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [131.43114355005193, 49.252612241469016],
                         [130.63906434923732, 48.87433864138615],
@@ -4566,25 +3785,7 @@
                         [131.43114355005193, 49.252612241469016]
                     ]
                 ] }, "properties": { "PERIMETER": 5595580, "region": "RU-AMU", "AREA": 362638000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 39734.3, "region": "RU-KHA", "AREA": 28344100 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 9659.65, "region": "RU-KHA", "AREA": 2509690 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6219.99, "region": "RU-KHA", "AREA": 1795340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 8456.1, "region": "RU-KHA", "AREA": 2661430 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6799.19, "region": "RU-SAK", "AREA": 2104850 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 11457.1, "region": "RU-SAK", "AREA": 3929660 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4456.18, "region": "RU-SAK", "AREA": 1043620 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 6052.92, "region": "RU-KHA", "AREA": 1570200 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 24522.5, "region": "RU-SAK", "AREA": 8029340 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4438.21, "region": "RU-SAK", "AREA": 1029980 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 32796.3, "region": "RU-SAK", "AREA": 74076000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 14088.9, "region": "RU-SAK", "AREA": 2760720 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4038.9, "region": "RU-SAK", "AREA": 628972 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 7316.28, "region": "RU-SAK", "AREA": 1215410 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3119.51, "region": "RU-SAK", "AREA": 636594 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3537.34, "region": "RU-SAK", "AREA": 757424 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 4710.71, "region": "RU-SAK", "AREA": 1052410 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 160210, "region": "RU-SAK", "AREA": 354528000 } },
-        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [88.58685950599099, 56.79774695279923],
                         [88.69487030610205, 56.36252893980067],
@@ -4615,7 +3816,7 @@
                         [87.6507659050283, 56.5496320108094],
                         [88.58685950599099, 56.79774695279923]
                     ]
-                ] }, "properties": { "PERIMETER": 2371690, "region": "RU-KEM", "AREA": 95796800000 } },
+                ] }, "properties": { "PERIMETER": 2371690,"regionId":"4200000000000", "center": {"lat": "55.3333300", "lng": " 86.0833300", "cityname": "Кемеровская область"}, "region": "RU-KEM", "AREA": 95796800000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [115.73357393390856, 56.960445275415516],
@@ -4683,9 +3884,6 @@
                         [115.73357393390856, 56.960445275415516]
                     ]
                 ] }, "properties": { "PERIMETER": 5428880, "region": "RU-BU", "AREA": 351792000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 10165.8, "region": "RU-SAK", "AREA": 7153670 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 23916.8, "region": "RU-SAK", "AREA": 22316700 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 15819.7, "region": "RU-SAK", "AREA": 13815200 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [85.13051390243649, 54.43455381679769],
@@ -4725,9 +3923,6 @@
                         [85.13051390243649, 54.43455381679769]
                     ]
                 ] }, "properties": { "PERIMETER": 2785390, "region": "RU-ALT", "AREA": 168126000000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 276599, "region": "RU-SAK", "AREA": 1444240000 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 3187.58, "region": "RU-SAK", "AREA": 710885 } },
-        { "type": "Feature", "geometry": null, "properties": { "PERIMETER": 581892, "region": "RU-SAK", "AREA": 3224070000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [96.68766951432181, 53.64546695210871],
@@ -4772,7 +3967,7 @@
                         [96.11161191372943, 53.45022896496917],
                         [96.68766951432181, 53.64546695210871]
                     ]
-                ] }, "properties": { "PERIMETER": 3064180, "region": "RU-TY", "AREA": 168539000000 } },
+                ] }, "properties": { "PERIMETER": 3064180, "region": "RU-TY", "regionId":"1700000000000", "center": {"lat": "51.7147200", "lng": " 94.4533800", "cityname": "Республика Тыва"}, "AREA": 168539000000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [139.02790315786442, 47.39378390557796],
@@ -4829,7 +4024,7 @@
                         [134.45544595316207, 48.72384269296609],
                         [134.70747115342127, 48.382176215471894]
                     ]
-                ] }, "properties": { "PERIMETER": 1237160, "region": "RU-YEV", "AREA": 35776700000 } },
+                ] }, "properties": { "PERIMETER": 1237160, "regionId":"7900000000000", "center":{ "lat": "48.7928400", "lng": " 132.9238600", "cityname": "Еврейская автономная область"}, "region": "RU-YEV", "AREA": 35776700000 } },
        { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [33.78697967529325, 44.38210678100586],
@@ -4922,7 +4117,7 @@
                         [88.40684150580583, 55.31312475892563],
                         [88.58685950599099, 55.427013584757034]
                     ]
-                ] }, "properties": { "PERIMETER": 1914440, "region": "RU-KK", "AREA": 61652100000 } },
+                ] }, "properties": { "PERIMETER": 1914440,"regionId":"1900000000000", "center":{"lat": "53.7155600", "lng": " 91.4291700", "cityname": "Республика Хакасия"}, "region": "RU-KK", "AREA": 61652100000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [87.14671550450996, 52.61640006156071],
@@ -4954,7 +4149,7 @@
                         [87.11071190447294, 52.62046751962612],
                         [87.14671550450996, 52.61640006156071]
                     ]
-                ] }, "properties": { "PERIMETER": 2207010, "region": "RU-AL", "AREA": 92969500000 } },
+                ] }, "properties": { "PERIMETER": 2207010, "regionId":"0400000000000", "region": "RU-AL", "AREA": 92969500000 } },
         { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
                     [
                         [21.008102236493187, 55.27245017827156],
