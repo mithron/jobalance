@@ -1,0 +1,5 @@
+Django==1.9
+django-cors-headers==2.1.0
+django-import-data==0.4.2
+djangorestframework==3.7.3
+psycopg2==2.7.3.2

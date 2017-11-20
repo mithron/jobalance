@@ -1,17 +1,12 @@
 {
   "name": "frontend",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "private": true,
   "dependencies": {
-    "chart.js": "^2.7.1",
     "leaflet": "^1.2.0",
-    "mapbox-gl": "^0.42.1",
-    "material-ui": "^0.19.4",
-    "osme": "^1.1.5",
     "react": "^16.1.1",
     "react-autosuggest": "^9.3.2",
     "react-dom": "^16.1.1",
-    "react-leaflet": "^1.7.4",
     "react-scripts": "1.0.17",
     "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.76.0"
